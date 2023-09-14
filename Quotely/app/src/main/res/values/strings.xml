@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quotely</string>
+    <string name="quote1">The only limit to our realization of tomorrow will be our doubts of today.</string>
+    <string name="aurthor1">– Franklin D. Roosevelt</string>
+    <string name="quote2">The only way to do great work is to love what you do.</string>
+    <string name="aurthor2">– Steve Jobs</string>
+    <string name="quote3">Success is not final, failure is not fatal: It is the courage to continue that counts. </string>
+    <string name="aurthor3">– Winston Churchill</string>
+    <string name="quote4">The future belongs to those who believe in the beauty of their dreams.</string>
+    <string name="aurthor4">– Eleanor Roosevelt</string>
+    <string name="quote5">Believe you can and you\'re halfway there.</string>
+    <string name="aurthor5">– Theodore Roosevelt</string>
+    <string name="quote6">Don\'t count the days, make the days count.</string>
+    <string name="aurthor6">– Muhammad Ali</string>
+    <string name="quote7">Don\'t watch the clock; do what it does. Keep going.</string>
+    <string name="aurthor7">– Sam Levenson</string>
+    <string name="quote8">The only person you are destined to become is the person you decide to be.</string>
+    <string name="aurthor8">– Ralph Waldo Emerson</string>
+    <string name="quote9">Success is walking from failure to failure with no loss of enthusiasm.</string>
+    <string name="aurthor9">– Winston Churchill</string>
+    <string name="quote10">Life is either a daring adventure or nothing at all.</string>
+    <string name="aurthor10">– Helen Keller
+    </string>
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="30dp"
+    android:background="@drawable/main_background"
+    android:padding="30dp">
+
+
+
+    <TextView
+        android:id="@+id/fav_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAVORITE"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        android:textColor="#151515"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/fav_optionBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toRightOf="@id/fav_textView"
+        app:layout_constraintBottom_toBottomOf="@id/fav_textView"
+        app:layout_constraintTop_toTopOf="@id/fav_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        app:tint = "#151515"
+        android:src="@drawable/option_ic" />
+    <LinearLayout
+        android:id="@+id/fav_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleX="-1"
+            android:scaleY="-1"
+            app:tint = "#454545"
+            android:src="@drawable/quote_ic" />
+        <TextView
+            android:id="@+id/fav_quoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingStart="10dp"
+            android:text="Genius is one percent inspiration and ninety-nine percent perspiration."
+            android:textColor="#454545"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/fav_quoteAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+
+            android:paddingStart="10dp"
+            android:text="Bruce Wayne"
+            android:textColor="#454545"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/fav_linearLayout"
+        android:background="@drawable/shadow"
+        app:layout_constraintTop_toBottomOf="@+id/fav_linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/fav_linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/fav_linearLayout"
+
+        tools:layout_editor_absoluteX="30dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fav_FavBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        app:backgroundTint="#454545"
+        android:tint="#E2CFEA"
+        app:layout_constraintEnd_toEndOf="@+id/fav_linearLayout"
+        app:layout_constraintTop_toTopOf="@+id/fav_linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/fav_linearLayout"
+        app:srcCompat="@drawable/fav_fill_ic"
+        android:contentDescription="Favorite Button"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fav_RefreshBtn"
+        android:tint="#E2CFEA"
+        app:backgroundTint="#454545"
+        android:contentDescription="Refresh Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/refresh_ic"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

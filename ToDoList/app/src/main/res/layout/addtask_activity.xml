@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:minHeight="48dp"
+        android:id="@+id/Newtasktitle"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:maxLength="25"
+        android:singleLine="true"
+        android:hint="Enter New Task"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:id="@+id/Newtaskdetail"
+        android:layout_marginTop="10dp"
+        android:maxLength="50"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:singleLine="true"
+        android:hint="Enter Task detail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:id="@+id/Newtaskdate"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:hint="Select Date"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:id="@+id/Newtasktime"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:focusable="false"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:hint="Select Time"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:text="Save"
+        android:layout_marginRight="10dp"
+       android:enabled="false"
+        android:id="@+id/savebtn"
+        android:layout_gravity="end"
+        />
+</LinearLayout>
